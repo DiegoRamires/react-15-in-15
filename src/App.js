@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react'
 
-class App extends Component {
-  render() {
-    return (
-      <h1>Day 1</h1>
-    );
-  }
-}
+import Square from './components/Square/index.js'
 
-export default App;
+const App = () => <Square />
+
+export default App
